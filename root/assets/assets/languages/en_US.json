@@ -1,0 +1,40 @@
+{
+  "global": {
+    "app_name": "Water Jug Riddle. By YKapustin"
+  },
+  "pages": {
+    "welcome_page": {
+      "start_button_text": "Start"
+    },
+    "input_page": {
+      "forms": {
+        "jug_x_field_hint": "Enter gallons for Jug X: ",
+        "jug_y_field_hint": "Enter gallons for Jug Y: ",
+        "jug_z_field_hint": "Enter the gallons you want to measure (Z): "
+      },
+      "alerts": {
+        "invitation_to_input_jug_values": "Pls, enter all of jug values",
+        "jug_great_value_alert": "Great!",
+        "solution_found_alert": "Solution found!",
+        "no_solution": "There is no solution :(",
+        "number_of_steps_alert": "Number of steps: {}",
+        "everything_is_possible_alert": "Everything is possible let me show you.",
+        "action": "Action: {}",
+        "explanation": {
+          "fill_bucket": "Fill bucket {}",
+          "transfer_bucket": "Transfer bucket {} to bucket {}",
+          "dump_bucket": "Dump bucket {}",
+          "details": "Details: {}",
+          "default_jug_state": "Default jug state",
+          "state": "State: {}"
+        }
+      },
+      "error_alerts": {
+        "jug_max_alert": "Sorry. Max Gallons for jug is less than 5000",
+        "jug_double_alert": "Sorry. Gallons can't be in float, pls enter gallons with int type",
+        "jug_min_alert": "Sorry. Min Gallons for Jug is more than 0",
+        "invitation_to_input_jug_value": "Pls, enter some value between 0 and 5000"
+      }
+    }
+  }
+}
