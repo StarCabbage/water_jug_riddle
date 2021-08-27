@@ -60545,7 +60545,7 @@ tL(a){var s=0,r=P.ac(t.y),q,p=this,o
 var $async$tL=P.a8(function(b,c){if(b===1)return P.a9(c,r)
 while(true)switch(s){case 0:o=C.bj
 s=3
-return P.ai($.aa3().a5d("languages/"+p.a.i(0)+".json"),$async$tL)
+return P.ai($.aa3().a5d("assets/languages/"+p.a.i(0)+".json"),$async$tL)
 case 3:p.b=o.dT(0,c)
 q=!0
 s=1
